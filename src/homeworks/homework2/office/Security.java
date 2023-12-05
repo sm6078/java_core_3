@@ -1,7 +1,7 @@
 package homeworks.homework2.office;
 
 public class Security {
-    private String name;
+    private final String name;
 
     public Security(String name) {
         this.name = name;

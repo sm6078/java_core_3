@@ -2,10 +2,10 @@ package homeworks.homework2.shop;
 
 public class Worker {
 
-    private String name;
-    private int age;
-    private boolean male;
-    private Item[] setOfThings;
+    private final String name;
+    private final int age;
+    private final boolean male;
+    private final Item[] setOfThings;
 
     public String getName() {
         return name;
@@ -33,7 +33,7 @@ public class Worker {
     public void brag() {
         System.out.println(this.name + ":");
         for (Item item : setOfThings) {
-            System.out.println(String.format("- %s - %s", "смотрите какая у меня вещь", item.getName()));
+            System.out.printf("- %s - %s%n", "смотрите какая у меня вещь", item.getName());
         }
         System.out.println("------------------------------------");
     }

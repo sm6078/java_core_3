@@ -1,7 +1,6 @@
 package homeworks.homework2;
 
 import homeworks.homework2.shop.Runner;
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -44,11 +43,13 @@ public class Homework2 {
 
         //С левого верхнего угла к нижнему правому
         int leftUpToRightDownSum = getSumLeftUptoRightDown(arrayOfNumbers);
-        ;
+
         //С левого нижнего угла к верхнему правому
         int leftDownToRightUpSum = getSumLeftDownToRightUp(arrayOfNumbers);
-        System.out.println("Сумма диагонали с левого верхнего угла к нижнему правому: " + leftUpToRightDownSum);
-        System.out.println("Сумма диагонали с левого нижнего угла к верхнему правому: " + leftDownToRightUpSum);
+        System.out.println("Сумма диагонали с левого верхнего угла к нижнему правому: "
+                + leftUpToRightDownSum);
+        System.out.println("Сумма диагонали с левого нижнего угла к верхнему правому: "
+                + leftDownToRightUpSum);
 
 
     }

@@ -1,7 +1,7 @@
 package homeworks.homework2.office;
 
 public class Boss {
-    private String name;
+    private final String name;
 
     public Boss(String name) {
         this.name = name;
