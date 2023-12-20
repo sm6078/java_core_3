@@ -1,7 +1,6 @@
 package homeworks.homework2.shop;
 
 public class Worker {
-
     private final String name;
     private final int age;
     private final boolean male;

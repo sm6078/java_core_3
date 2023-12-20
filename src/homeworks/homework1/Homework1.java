@@ -103,7 +103,8 @@ public class Homework1 {
         //Шейки 6988кг
 
         int globalResult = 0;
-        int totalExpenditure = calculateExpenditureSausage(2000) + calculateExpenditureHam(8511) + calculateExpenditureNeck(6988) + 1_000_000;
+        int totalExpenditure = calculateExpenditureSausage(2000) + calculateExpenditureHam(8511)
+                + calculateExpenditureNeck(6988) + 1_000_000;
         int totalProfit = 2000 * 800 + 8511 * 350 + 6988 * 500;
         int profitBeforeTax = totalProfit - totalExpenditure;
         if (profitBeforeTax > 2_000_000) {
