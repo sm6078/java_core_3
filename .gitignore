@@ -28,7 +28,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 /.idea/checkstyle-idea.xml
-/src/homeworks/homework2/shop/Item.java
+/src/homeworks/module1/homework2/shop/Item.java
 /java_core_3.iml
 /.idea/misc.xml
 /.idea/modules.xml
