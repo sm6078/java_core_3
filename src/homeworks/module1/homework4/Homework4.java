@@ -1,17 +1,17 @@
-package homeworks.homework4;
+package homeworks.module1.homework4;
 
-import homeworks.homework4.ex1.Bus;
-import homeworks.homework4.ex1.Car;
-import homeworks.homework4.ex1.CarWash;
-import homeworks.homework4.ex1.PassengerCar;
-import homeworks.homework4.ex2.Airplane;
-import homeworks.homework4.ex2.Duck;
-import homeworks.homework4.ex2.FlyException;
-import homeworks.homework4.ex3.Bird;
-import homeworks.homework4.ex3.Builder;
-import homeworks.homework4.ex3.Driver;
-import homeworks.homework4.ex3.Human;
-import homeworks.homework4.ex3.Sound;
+import homeworks.module1.homework4.ex1.Bus;
+import homeworks.module1.homework4.ex1.Car;
+import homeworks.module1.homework4.ex1.CarWash;
+import homeworks.module1.homework4.ex1.PassengerCar;
+import homeworks.module1.homework4.ex2.Airplane;
+import homeworks.module1.homework4.ex2.Duck;
+import homeworks.module1.homework4.ex2.FlyException;
+import homeworks.module1.homework4.ex3.Bird;
+import homeworks.module1.homework4.ex3.Builder;
+import homeworks.module1.homework4.ex3.Driver;
+import homeworks.module1.homework4.ex3.Human;
+import homeworks.module1.homework4.ex3.Sound;
 
 public class Homework4 {
     public static void main(String[] args) {

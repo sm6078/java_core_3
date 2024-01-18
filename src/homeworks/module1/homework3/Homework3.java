@@ -1,12 +1,10 @@
-package homeworks.homework3;
+package homeworks.module1.homework3;
 
-import homeworks.homework3.ex1.Birch;
-import homeworks.homework3.ex1.Pine;
-import homeworks.homework3.ex1.Spruce;
-import homeworks.homework3.ex1.Tree;
-import homeworks.homework3.ex3.Pyramid1;
-import homeworks.homework3.ex3.Pyramid2;
-import homeworks.homework3.ex3.Pyramid3;
+import homeworks.module1.homework3.ex1.Birch;
+import homeworks.module1.homework3.ex1.Pine;
+import homeworks.module1.homework3.ex1.Spruce;
+import homeworks.module1.homework3.ex1.Tree;
+import homeworks.module1.homework3.ex3.Pyramid1;
 
 public class Homework3 {
     public static void main(String[] args) {
