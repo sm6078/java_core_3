@@ -5,10 +5,11 @@ import java.util.List;
 
 public class RunnerCheck {
     public static void main(String[] args) {
+
         MagicWarehouse magicWarehouse = new MagicWarehouse();
         magicWarehouse.add(List.of(new Item("вещь 1"),
-                new Item("вещь 2"), new Item("вещь 3"),
-                new Item("вещь 4"), new Item("вещь 5")));
+        new Item("вещь 2"), new Item("вещь 3"),
+        new Item("вещь 4"), new Item("вещь 5")));
         System.out.println(Arrays.toString(magicWarehouse.getListItem().toArray()));
 
         magicWarehouse.putItem(0);

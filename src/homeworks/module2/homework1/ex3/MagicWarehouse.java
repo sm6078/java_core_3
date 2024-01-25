@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MagicWarehouse {
-    private final List<Item> listItem;
+    private final List<Item> listItem = new ArrayList<>();
 
     public MagicWarehouse(List<Item> items) {
-        listItem = items;
+        listItem.addAll(items);
     }
 
     public MagicWarehouse() {
-        listItem = new ArrayList<>();
     }
 
     public List<Item> getListItem() {
